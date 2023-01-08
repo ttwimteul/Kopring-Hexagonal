@@ -7,5 +7,5 @@ dependencies {
     implementation(project(":kopring-domain"))
 
     // transaction
-    implementation("org.springframework:spring-tx:5.3.22")
+    implementation("org.springframework:spring-tx:6.0.3")
 }
