@@ -6,6 +6,10 @@ dependencies {
 
     implementation(project(":kopring-domain"))
 
-    // transaction
     implementation("org.springframework:spring-tx:6.0.3")
+}
+
+allOpen {
+    annotation("com.example.kopring.global.annotation.UseCase")
+    annotation("con.example.kopring.global.annotation.ReadOnlyUseCase")
 }
