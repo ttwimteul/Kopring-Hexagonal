@@ -1,8 +1,8 @@
 package com.example.domain.user
 
-import com.example.domain.user.dto.SignupRequest
+import com.example.kopring.domain.user.dto.SignupRequest
 import com.example.domain.user.dto.SignupWebRequest
-import com.example.domain.user.usecase.SignupUseCase
+import com.example.kopring.domain.user.usecase.SignupUseCase
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestMapping

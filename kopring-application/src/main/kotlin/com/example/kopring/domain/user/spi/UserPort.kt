@@ -1,4 +1,4 @@
-package com.example.domain.user.spi
+package com.example.kopring.domain.user.spi
 
 import com.example.domain.user.User
 

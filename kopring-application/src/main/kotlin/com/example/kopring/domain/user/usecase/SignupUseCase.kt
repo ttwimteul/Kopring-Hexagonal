@@ -1,8 +1,8 @@
-package com.example.domain.user.usecase
+package com.example.kopring.domain.user.usecase
 
 import com.example.domain.user.User
-import com.example.domain.user.dto.SignupRequest
-import com.example.domain.user.spi.UserPort
+import com.example.kopring.domain.user.dto.SignupRequest
+import com.example.kopring.domain.user.spi.UserPort
 import com.example.kopring.global.annotation.UseCase
 import org.springframework.stereotype.Component
 import org.springframework.stereotype.Service
